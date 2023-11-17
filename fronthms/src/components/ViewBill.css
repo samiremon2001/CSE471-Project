@@ -1,0 +1,94 @@
+.view-bill-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.view-bill-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 4px;
+  margin: 0 5px;
+  background-color: #e7e7e7; /* Neutral background for tabs */
+  color: #333; /* Dark text for visibility */
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.tab:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.bill-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.bill-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.bill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-header {
+  background-color: #007bff; 
+  color: black; 
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.bill-details p {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.download-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}

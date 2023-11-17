@@ -1,0 +1,58 @@
+.patient-details-container {
+    background-color: #071832;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.patient-details-title {
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+.patient-details-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.patient-details-option-box {
+    background-color: white;
+    color: #6A7E8E;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: calc(33.33% - 20px);
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.patient-details-option-box:hover {
+    transform: translateY(-5px);
+}
+
+.patient-details-option-box h2 {
+    margin: 0;
+    color: #071832;
+}
+
+.patient-details-option-box p {
+    color: #777;
+}
+
+@media (max-width: 900px) {
+    .patient-details-option-box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .patient-details-option-box {
+        width: 100%;
+    }
+}

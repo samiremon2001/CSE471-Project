@@ -1,0 +1,55 @@
+/* BloodBank.css */
+
+.blood-bank-container {
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.dashboard-menu {
+  margin-bottom: 20px;
+}
+
+.dashboard-menu button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-menu button:hover {
+  background-color: #037f58;
+}
+
+.blood-details-section {
+  display: block;
+  width: 100%;
+}
+
+.blood-bank-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.blood-bank-table th,
+.blood-bank-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.blood-bank-table th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.blood-bank-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.blood-bank-table tr:hover {
+  background-color: #ddd;
+}
